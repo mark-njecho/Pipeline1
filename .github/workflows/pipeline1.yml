@@ -19,7 +19,7 @@ jobs:
           python-version: '3.9'
 
       - name: Run Python App
-        run: python app.py
+        run: python pipeline1.py
 
       - name: Build Docker Image
         run: docker build -t ci-demo 
