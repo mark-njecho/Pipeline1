@@ -1,4 +1,4 @@
-name: Pipeline1 CI/CD Pipeline
+pipeline1name: Pipeline1 CI/CD Pipeline
 
 on:
   push:
@@ -22,4 +22,4 @@ jobs:
         run: python pipeline1.py
 
       - name: Build Docker Image
-        run: docker build -t ci-demo 
+        run: docker build -t pipeline1-demo 
